@@ -1,0 +1,196 @@
+.cta {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.featuretext {
+	padding: 0 5%;
+}
+
+h5 {
+	font-weight: 400;
+}
+
+.pricing {
+	background: #b4dadb;
+	background-image: linear-gradient(-180deg, #b4dadb 50%, #76aeb0 100%);
+	padding: 40px 0px;
+	text-align: center;
+	margin-top: -3px;
+}
+
+.pricing ul {
+	margin: 0 0 20px;
+	padding: 0;
+}
+
+.pricing ul li {
+	list-style-type: none;
+}
+
+.pricing li:before {
+	content: '\f14a';
+	font-family: 'FontAwesome';
+	margin-right: 10px;
+	color: #6293af;
+}
+
+.box {
+	padding: 0 15px 15px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+	min-height: 350px;
+	position: relative;
+	margin-top: 25px;
+}
+
+.box h4 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	background: #6293af;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.40);
+	left: 0;
+	right: 0;
+	top: 0;
+	text-align: center;
+	margin: 0 -15px 20px;
+	padding: 20px 0;
+}
+
+.box h5 {
+	font-size: 2.6rem;
+	font-weight: 500;
+}
+
+.box .btn {
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	right: 10%;
+}
+
+.features {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 3px solid #b4dadb;
+}
+
+h3 {
+	font-size: 3.6rem;
+	line-height: 1.2;
+	letter-spacing: -.1rem;
+	color: #467d9c;
+}
+
+.logo {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 1.8rem;
+	line-height: 1.35;
+	letter-spacing: -.08rem;
+}
+
+header {
+	background-image: url("../images/hero_small.jpg"), linear-gradient(#89BDD3, #6293AF);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	min-height: 500px;
+}
+
+.btnsingle {
+	display: none;
+}
+
+footer {
+	margin-bottom: 20px;
+}
+
+.socialshare {
+	font-size: 4.5rem;
+}
+
+footer nav ul {
+	font-size: 14px;
+	text-align: center;
+	margin: 10px auto 0;
+}
+
+footer nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+footer nav ul li a {
+	text-decoration: none;
+}
+
+@media (min-width: 550px) {
+	header {
+		background-image: url("../images/hero_900.jpg"), linear-gradient(#89BDD3, #6293AF);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top;
+		min-height: 700px;
+	}
+	h2 {
+		font-size: 2rem;
+		line-height: 1.5;
+		letter-spacing: -.04rem;
+		font-weight: 400;
+	}
+	.btnmulti {
+		display: none;
+	}
+	.btnsingle {
+		display: block;
+		margin: 40px 40px 0;
+	}
+	.box h5 {
+		font-size: 2rem;
+	}
+	.box.middle {
+		min-height: 400px;
+		margin-top: 0px;
+	}
+}
+
+@media (min-width: 1000px) {
+	header {
+		background-image: url("../images/hero_1140.jpg"), linear-gradient(#89BDD3, #6293AF);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top;
+		min-height: 700px;
+	}
+	h2 {
+		font-size: 2.25rem;
+		font-weight: 400;
+	}
+	.btnmulti {
+		display: block;
+	}
+	.btnsingle {
+		display: none;
+	}
+	.middle h4 {
+		font-size: 2.7rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		background-image: url("../images/hero_large.jpg"), linear-gradient(-180deg, #b4dadb 50%, #76aeb0 100%);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top;
+		min-height: 700px;
+	}
+	.featuretext {
+		padding-top: 70px;
+	}
+}
