@@ -201,6 +201,11 @@ footer nav ul li a {
 	z-index: 100;
 }
 
+.activeview {
+	background-color: #b4dadb;
+	padding: 2px;
+}
+
 .hamburger {
 	position: absolute;
 	z-index: 1000;
