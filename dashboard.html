@@ -10,6 +10,9 @@
 
 	<!--Google Fonts-->
 	<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
+	<FilesMatch ".(ttf|otf|woff)$">
+		Header set Access-Control-Allow-Origin "*"
+	</FilesMatch>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css">
